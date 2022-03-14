@@ -1,0 +1,24 @@
+{
+  "name": "wedriverio-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^7.17.3",
+    "@wdio/cli": "^7.17.4",
+    "@wdio/local-runner": "^7.17.4",
+    "@wdio/mocha-framework": "^7.17.3",
+    "@wdio/spec-reporter": "^7.17.3",
+    "chromedriver": "^99.0.0",
+    "wdio-chromedriver-service": "^7.2.8"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.1.1"
+  }
+}
