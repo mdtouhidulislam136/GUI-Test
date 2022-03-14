@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1647259744796' stop='1647259744906'>
+    <name>test-2</name>
+    <title>test-2</title>
+    <test-cases>
+        <test-case start='1647259744796' status='broken' stop='1647259744903'>
+            <name>"before each" hook for test-2</name>
+            <title>"before each" hook for test-2</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>ECONNREFUSED connect ECONNREFUSED 127.0.0.1:4444</message>
+                <stack-trace>Error: ECONNREFUSED connect ECONNREFUSED 127.0.0.1:4444
+                    at ClientRequest.&lt;anonymous> (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\http\index.js:294:15)
+                    at ClientRequest.emit (node:events:520:28)
+                    at ClientRequest.emit (node:domain:475:12)
+                    at Socket.socketErrorListener (node:_http_client:442:9)
+                    at Socket.emit (node:events:520:28)
+                    at Socket.emit (node:domain:475:12)
+                    at emitErrorNT (node:internal/streams/destroy:157:8)
+                    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+                    at processTicksAndRejections (node:internal/process/task_queues:83:21)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1647259744904' status='passed' stop='1647259744904'>
+            <name>test-2</name>
+            <title>test-2</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

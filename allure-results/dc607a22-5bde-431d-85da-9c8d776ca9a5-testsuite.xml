@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1647271221754' stop='1647271248749'>
+    <name>test-3</name>
+    <title>test-3</title>
+    <test-cases>
+        <test-case start='1647271221755' status='broken' stop='1647271248746'>
+            <name>test-3</name>
+            <title>test-3</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1647271248562' status='passed' stop='1647271248701'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='365455ae-625c-426d-9df4-7b699dae698b-attachment.png' type='image/png' size='6108'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: Element &lt;input _ngcontent-fpg-c150="" type="text" autocomplete="off" class="search-input ng-tns-c150-3 ng-untouched ng-pristine ng-valid" placeholder="Hae" tabindex="0" aria-label="Hae"> is not clickable at point (387, 100). Other element would receive the click: &lt;div class="coi-banner__summary">...&lt;/div>
+                  (Session info: chrome=99.0.4844.51)</message>
+                <stack-trace>ElementClickInterceptedError: element click intercepted: Element &lt;input _ngcontent-fpg-c150="" type="text" autocomplete="off" class="search-input ng-tns-c150-3 ng-untouched ng-pristine ng-valid" placeholder="Hae" tabindex="0" aria-label="Hae"> is not clickable at point (387, 100). Other element would receive the click: &lt;div class="coi-banner__summary">...&lt;/div>
+                  (Session info: chrome=99.0.4844.51)
+                    at Object.throwDecodedError (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\error.js:522:15)
+                    at parseHttpResponse (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\http.js:548:13)
+                    at Executor.execute (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\http.js:474:28)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Driver.execute (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:735:17)
+                    at async Context.&lt;anonymous> (C:\Users\Asus\wedriverio-test\test\specs\test3.spec.js:19:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
