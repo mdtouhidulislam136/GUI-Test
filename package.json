@@ -19,6 +19,7 @@
     "wdio-chromedriver-service": "^7.2.8"
   },
   "dependencies": {
-    "selenium-webdriver": "^4.1.1"
+    "selenium-webdriver": "^4.1.1",
+    "webdriverio": "^7.17.4"
   }
 }
