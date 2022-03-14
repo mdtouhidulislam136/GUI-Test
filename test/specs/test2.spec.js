@@ -2,7 +2,7 @@
 const { Builder, By, Key, until } = require('selenium-webdriver')
 const assert = require('assert')
 
-describe('test-2', function() {
+describe('test-1', function() {
   this.timeout(30000)
   let driver
   let vars
@@ -13,40 +13,17 @@ describe('test-2', function() {
   afterEach(async function() {
     await driver.quit();
   })
-  it('test-2', async function() {
+  it('test-1', async function() {
     await driver.get("https://www.power.fi/")
-    await driver.manage().window().setRect({ width: 788, height: 890 })
+    await driver.manage().window().setRect({ width: 758, height: 891 })
     await driver.findElement(By.css(".ng-tns-c150-3 > .search-input")).click()
-    await driver.findElement(By.css(".ng-tns-c150-3 > .search-input")).sendKeys("iphone 12 pro")
+    await driver.findElement(By.css(".ng-tns-c150-3 > .search-input")).sendKeys("iphone 13 pro")
     await driver.findElement(By.css(".ng-tns-c150-3 > .search-input")).sendKeys(Key.ENTER)
-    {
-      const element = await driver.findElement(By.css(".page-header-button-container:nth-child(2) .primary-dark"))
-      await driver.actions({ bridge: true }).moveToElement(element).perform()
-    }
-    {
-      const element = await driver.findElement(By.CSS_SELECTOR, "body")
-      await driver.actions({ bridge: true }).moveToElement(element, 0, 0).perform()
-    }
-    await driver.executeScript("window.scrollTo(0,2414)")
-    await driver.executeScript("window.scrollTo(0,3955.333251953125)")
-    await driver.executeScript("window.scrollTo(0,5893.33349609375)")
-    await driver.executeScript("window.scrollTo(0,6560)")
-    await driver.executeScript("window.scrollTo(0,7812)")
-    await driver.executeScript("window.scrollTo(0,8426)")
-    await driver.findElement(By.css(".full-width font > font")).click()
-    await driver.executeScript("window.scrollTo(0,9059.3330078125)")
-    await driver.executeScript("window.scrollTo(0,11494)")
-    await driver.executeScript("window.scrollTo(0,12859.3330078125)")
-    {
-      const element = await driver.findElement(By.css(".ng-star-inserted:nth-child(55) .bold > font > font"))
-      await driver.actions({ bridge: true }).moveToElement(element).clickAndHold().perform()
-    }
-    await driver.findElement(By.css(".ng-star-inserted:nth-child(55) .product-item")).click()
-    await driver.executeScript("window.scrollTo(0,0)")
-    await driver.executeScript("window.scrollTo(0,2)")
-    await driver.executeScript("window.scrollTo(0,997.3333129882812)")
-    await driver.findElement(By.css(".cls-1")).click()
-    await driver.findElement(By.id("enteredFormName")).click()
-    await driver.findElement(By.css(".icon path:nth-child(1)")).click()
+    await driver.findElement(By.css(".mb-spacer-mini > img")).click()
+    await driver.findElement(By.css(".mb-spacer-mini > img")).click()
+    await driver.executeScript("window.scrollTo(0,322)")
+    await driver.findElement(By.css(".ng-star-inserted > img")).click()
   })
 })
+
+
