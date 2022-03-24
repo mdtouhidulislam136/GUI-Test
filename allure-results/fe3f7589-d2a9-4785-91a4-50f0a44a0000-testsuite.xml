@@ -1,0 +1,221 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648141995076' stop='1648142065878'>
+    <name>suite</name>
+    <title>suite</title>
+    <test-cases>
+        <test-case start='1648141995077' status='broken' stop='1648142012982'>
+            <name>test-1</name>
+            <title>test-1</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps>
+                <step start='1648142012600' status='passed' stop='1648142012796'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='df5c38b1-0953-40f5-98a4-251582d2ecfd-attachment.png' type='image/png' size='6108'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>driver.actions(...).moveToElement is not a function</message>
+                <stack-trace>TypeError: driver.actions(...).moveToElement is not a function
+                    at Context.&lt;anonymous> (C:\Users\Asus\wedriverio-test\test\specs\suite.spec.js:25:46)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1648142012982' status='broken' stop='1648142021871'>
+            <name>test-2</name>
+            <title>test-2</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps>
+                <step start='1648142021729' status='passed' stop='1648142021827'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='9abd2f4d-106a-4d9d-b6dc-f8d348096d7e-attachment.png' type='image/png' size='6108'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: Element &lt;input _ngcontent-xbg-c75="" type="text" autocomplete="off" class="search-input ng-tns-c75-1 ng-untouched ng-pristine ng-valid" placeholder="Hae" tabindex="0" aria-label="Hae"> is not clickable at point (425, 37). Other element would receive the click: &lt;div id="coiOverlay" role="banner" aria-hidden="false" style="display: flex;">...&lt;/div>
+                  (Session info: chrome=99.0.4844.82)</message>
+                <stack-trace>ElementClickInterceptedError: element click intercepted: Element &lt;input _ngcontent-xbg-c75="" type="text" autocomplete="off" class="search-input ng-tns-c75-1 ng-untouched ng-pristine ng-valid" placeholder="Hae" tabindex="0" aria-label="Hae"> is not clickable at point (425, 37). Other element would receive the click: &lt;div id="coiOverlay" role="banner" aria-hidden="false" style="display: flex;">...&lt;/div>
+                  (Session info: chrome=99.0.4844.82)
+                    at Object.throwDecodedError (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\error.js:522:15)
+                    at parseHttpResponse (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\http.js:548:13)
+                    at Executor.execute (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\http.js:474:28)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Driver.execute (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:735:17)
+                    at async Context.&lt;anonymous> (C:\Users\Asus\wedriverio-test\test\specs\suite.spec.js:36:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1648142021871' status='broken' stop='1648142037920'>
+            <name>test-3</name>
+            <title>test-3</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps>
+                <step start='1648142037630' status='passed' stop='1648142037771'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='04bebdd1-bec7-4a18-a383-85eef4cee229-attachment.png' type='image/png' size='6108'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such element: Unable to locate element: {"method":"link text","selector":"iPhone 12 Pro"}
+                  (Session info: chrome=99.0.4844.82)</message>
+                <stack-trace>NoSuchElementError: no such element: Unable to locate element: {"method":"link text","selector":"iPhone 12 Pro"}
+                  (Session info: chrome=99.0.4844.82)
+                    at Object.throwDecodedError (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\error.js:522:15)
+                    at parseHttpResponse (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\http.js:548:13)
+                    at Executor.execute (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\http.js:474:28)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Driver.execute (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:735:17)
+                    at async toWireValue (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:140:15)
+                    at async C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:190:16
+                    at async forEachKey (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:184:9)
+                    at async convertKeys (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:189:3)
+                    at async Driver.execute (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:733:22)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1648142037920' status='passed' stop='1648142052843'>
+            <name>test-4</name>
+            <title>test-4</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1648142052844' status='broken' stop='1648142060857'>
+            <name>test-5</name>
+            <title>test-5</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps>
+                <step start='1648142060620' status='passed' stop='1648142060778'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='0093fea7-7cd5-4bf2-8652-e2e875758715-attachment.png' type='image/png' size='6108'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=99.0.4844.82)</message>
+                <stack-trace>ElementNotInteractableError: element not interactable
+                  (Session info: chrome=99.0.4844.82)
+                    at Object.throwDecodedError (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\error.js:522:15)
+                    at parseHttpResponse (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\http.js:548:13)
+                    at Executor.execute (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\http.js:474:28)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Driver.execute (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:735:17)
+                    at async Context.&lt;anonymous> (C:\Users\Asus\wedriverio-test\test\specs\suite.spec.js:73:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1648142060857' status='passed' stop='1648142065877'>
+            <name>test-6</name>
+            <title>test-6</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

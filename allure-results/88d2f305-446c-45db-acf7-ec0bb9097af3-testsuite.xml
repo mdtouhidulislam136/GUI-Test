@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648143984174' stop='1648143989560'>
+    <name>test-6</name>
+    <title>test-6</title>
+    <test-cases>
+        <test-case start='1648143984175' status='broken' stop='1648143989558'>
+            <name>test-6</name>
+            <title>test-6</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps>
+                <step start='1648143989312' status='passed' stop='1648143989459'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='69209360-4b3e-4eea-82bb-4f7a0648e1d6-attachment.png' type='image/png' size='6108'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: Element &lt;img _ngcontent-oep-c95="" src="https://media.power-cdn.net/images/logos/powerfi/logo.svg" alt="Power logo"> is not clickable at point (203, 29). Other element would receive the click: &lt;div id="coiOverlay" role="banner" aria-hidden="false" style="display: flex;">...&lt;/div>
+                  (Session info: chrome=99.0.4844.82)</message>
+                <stack-trace>ElementClickInterceptedError: element click intercepted: Element &lt;img _ngcontent-oep-c95="" src="https://media.power-cdn.net/images/logos/powerfi/logo.svg" alt="Power logo"> is not clickable at point (203, 29). Other element would receive the click: &lt;div id="coiOverlay" role="banner" aria-hidden="false" style="display: flex;">...&lt;/div>
+                  (Session info: chrome=99.0.4844.82)
+                    at Object.throwDecodedError (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\error.js:522:15)
+                    at parseHttpResponse (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\http.js:548:13)
+                    at Executor.execute (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\http.js:474:28)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Driver.execute (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:735:17)
+                    at async Context.&lt;anonymous> (C:\Users\Asus\wedriverio-test\test\specs\suite.spec.js:19:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

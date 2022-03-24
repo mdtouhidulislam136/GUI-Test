@@ -1,0 +1,229 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648142309481' stop='1648142363195'>
+    <name>suite</name>
+    <title>suite</title>
+    <test-cases>
+        <test-case start='1648142309482' status='broken' stop='1648142322297'>
+            <name>test-1</name>
+            <title>test-1</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps>
+                <step start='1648142322091' status='passed' stop='1648142322224'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='0e2b9763-42e9-4f1b-89b4-637cf41c9b73-attachment.png' type='image/png' size='6108'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>driver.actions(...).moveToElement is not a function</message>
+                <stack-trace>TypeError: driver.actions(...).moveToElement is not a function
+                    at Context.&lt;anonymous> (C:\Users\Asus\wedriverio-test\test\specs\suite.spec.js:24:46)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1648142322297' status='broken' stop='1648142329355'>
+            <name>test-2</name>
+            <title>test-2</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps>
+                <step start='1648142329159' status='passed' stop='1648142329298'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='8e7cca78-c982-49b3-98d4-a8f77cbe6964-attachment.png' type='image/png' size='6108'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such element: Unable to locate element: {"method":"css selector","selector":".full-width > .pwr-btn"}
+                  (Session info: chrome=99.0.4844.82)</message>
+                <stack-trace>NoSuchElementError: no such element: Unable to locate element: {"method":"css selector","selector":".full-width > .pwr-btn"}
+                  (Session info: chrome=99.0.4844.82)
+                    at Object.throwDecodedError (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\error.js:522:15)
+                    at parseHttpResponse (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\http.js:548:13)
+                    at Executor.execute (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\http.js:474:28)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Driver.execute (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:735:17)
+                    at async toWireValue (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:140:15)
+                    at async C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:190:16
+                    at async forEachKey (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:184:9)
+                    at async convertKeys (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:189:3)
+                    at async Driver.execute (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:733:22)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1648142329355' status='broken' stop='1648142338953'>
+            <name>test-3</name>
+            <title>test-3</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps>
+                <step start='1648142338759' status='passed' stop='1648142338894'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b8885395-bba8-4631-b9d6-3d7a7894112d-attachment.png' type='image/png' size='6108'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such element: Unable to locate element: {"method":"link text","selector":"iPhone 12 Pro"}
+                  (Session info: chrome=99.0.4844.82)</message>
+                <stack-trace>NoSuchElementError: no such element: Unable to locate element: {"method":"link text","selector":"iPhone 12 Pro"}
+                  (Session info: chrome=99.0.4844.82)
+                    at Object.throwDecodedError (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\error.js:522:15)
+                    at parseHttpResponse (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\http.js:548:13)
+                    at Executor.execute (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\http.js:474:28)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Driver.execute (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:735:17)
+                    at async toWireValue (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:140:15)
+                    at async C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:190:16
+                    at async forEachKey (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:184:9)
+                    at async convertKeys (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:189:3)
+                    at async Driver.execute (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:733:22)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1648142338953' status='passed' stop='1648142351611'>
+            <name>test-4</name>
+            <title>test-4</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1648142351611' status='broken' stop='1648142358370'>
+            <name>test-5</name>
+            <title>test-5</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps>
+                <step start='1648142358170' status='passed' stop='1648142358321'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a58de981-95db-4169-a3ce-a412a32918fe-attachment.png' type='image/png' size='6108'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such element: Unable to locate element: {"method":"css selector","selector":".ng-star-inserted > .secondary"}
+                  (Session info: chrome=99.0.4844.82)</message>
+                <stack-trace>NoSuchElementError: no such element: Unable to locate element: {"method":"css selector","selector":".ng-star-inserted > .secondary"}
+                  (Session info: chrome=99.0.4844.82)
+                    at Object.throwDecodedError (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\error.js:522:15)
+                    at parseHttpResponse (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\http.js:548:13)
+                    at Executor.execute (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\http.js:474:28)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Driver.execute (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:735:17)
+                    at async toWireValue (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:140:15)
+                    at async C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:190:16
+                    at async forEachKey (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:184:9)
+                    at async convertKeys (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:189:3)
+                    at async Driver.execute (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:733:22)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1648142358370' status='passed' stop='1648142363194'>
+            <name>test-6</name>
+            <title>test-6</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

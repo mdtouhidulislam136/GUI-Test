@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648065879343' stop='1648065879582'>
+    <name>Power website testing</name>
+    <title>Power website testing</title>
+    <test-cases>
+        <test-case start='1648065879344' status='broken' stop='1648065879475'>
+            <name>Opening baseUrl</name>
+            <title>Opening baseUrl</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.74'/>
+            </parameters>
+            <steps>
+                <step start='1648065879346' status='passed' stop='1648065879474'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='33c8e883-0af3-4b9e-bb9d-22c5b4489c4d-attachment.png' type='image/png' size='6108'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot destructure property 'baseUrl' of 'variables' as it is undefined.</message>
+                <stack-trace>TypeError: Cannot destructure property 'baseUrl' of 'variables' as it is undefined.
+                    at Context.&lt;anonymous> (C:\Users\Asus\wedriverio-test\test\specs\defaultSuite.js:5:17)
+                    at Context.executeAsync (C:\Users\Asus\wedriverio-test\node_modules\@wdio\utils\build\shim.js:331:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\Asus\wedriverio-test\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1648065879476' status='broken' stop='1648065879581'>
+            <name>Searching for Iphone 13</name>
+            <title>Searching for Iphone 13</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.74'/>
+            </parameters>
+            <steps>
+                <step start='1648065879476' status='passed' stop='1648065879580'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='8f930c7f-7c1b-46c1-8ca4-5af50b5ad126-attachment.png' type='image/png' size='6108'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot destructure property 'baseUrl' of 'variables' as it is undefined.</message>
+                <stack-trace>TypeError: Cannot destructure property 'baseUrl' of 'variables' as it is undefined.
+                    at Context.&lt;anonymous> (C:\Users\Asus\wedriverio-test\test\specs\defaultSuite.js:13:17)
+                    at Context.executeAsync (C:\Users\Asus\wedriverio-test\node_modules\@wdio\utils\build\shim.js:331:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\Asus\wedriverio-test\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

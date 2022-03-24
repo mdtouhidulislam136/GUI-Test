@@ -1,0 +1,123 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1647965175510' stop='1647965210398'>
+    <name>Default Suite</name>
+    <title>Default Suite</title>
+    <test-cases>
+        <test-case start='1647965175510' status='passed' stop='1647965186687'>
+            <name>test-1-search-i13</name>
+            <title>test-1-search-i13</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.74'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.74'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.74'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1647965186687' status='broken' stop='1647965198693'>
+            <name>test-2</name>
+            <title>test-2</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.74'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.74'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.74'/>
+            </parameters>
+            <steps>
+                <step start='1647965198435' status='passed' stop='1647965198598'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7b8e3925-bc9b-4451-998f-732ed547c1d5-attachment.png' type='image/png' size='6108'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such element: Unable to locate element: {"method":"css selector","selector":".full-width font > font"}
+                  (Session info: chrome=99.0.4844.74)</message>
+                <stack-trace>NoSuchElementError: no such element: Unable to locate element: {"method":"css selector","selector":".full-width font > font"}
+                  (Session info: chrome=99.0.4844.74)
+                    at Object.throwDecodedError (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\error.js:522:15)
+                    at parseHttpResponse (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\http.js:548:13)
+                    at Executor.execute (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\http.js:474:28)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Driver.execute (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:735:17)
+                    at async toWireValue (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:140:15)
+                    at async C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:190:16
+                    at async forEachKey (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:184:9)
+                    at async convertKeys (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:189:3)
+                    at async Driver.execute (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:733:22)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1647965198694' status='broken' stop='1647965210396'>
+            <name>test-3</name>
+            <title>test-3</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.74'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.74'/>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.74'/>
+            </parameters>
+            <steps>
+                <step start='1647965210139' status='passed' stop='1647965210281'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='8c8619b9-81cd-43a1-9096-4d473857e8e0-attachment.png' type='image/png' size='6108'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such element: Unable to locate element: {"method":"css selector","selector":".search-pages > .ng-tns-c169-2:nth-child(3) > font > font"}
+                  (Session info: chrome=99.0.4844.74)</message>
+                <stack-trace>NoSuchElementError: no such element: Unable to locate element: {"method":"css selector","selector":".search-pages > .ng-tns-c169-2:nth-child(3) > font > font"}
+                  (Session info: chrome=99.0.4844.74)
+                    at Object.throwDecodedError (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\error.js:522:15)
+                    at parseHttpResponse (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\http.js:548:13)
+                    at Executor.execute (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\http.js:474:28)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Driver.execute (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:735:17)
+                    at async toWireValue (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:140:15)
+                    at async C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:190:16
+                    at async forEachKey (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:184:9)
+                    at async convertKeys (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:189:3)
+                    at async Driver.execute (C:\Users\Asus\wedriverio-test\node_modules\selenium-webdriver\lib\webdriver.js:733:22)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
